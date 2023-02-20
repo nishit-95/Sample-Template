@@ -1,0 +1,203 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    /* padding-bottom: 1px; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* Navigation Bar */
+#navbar {
+
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+    margin: 0px 34px;
+}
+
+#logo div {
+    height: 59px;
+    margin: 0px -35px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica, sans-serif;
+
+}
+
+#logo div span {
+    color: rgb(248, 128, 0);
+    font-size: 75px;
+    padding: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul {
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    background-color: gray;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 16px 22px;
+    background-color: gray;
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Services Section */
+#services {
+    padding: 20px;
+    display: block;
+    width: 75%;
+    /* border: 2px solid black; */
+
+}
+
+#services .box {
+
+    padding-bottom: 34px;
+    padding-top: 34px;
+    margin: 0px 0px;
+    display: flex;
+
+    margin-bottom: 00px;
+}
+
+.new {
+    display: inline;
+}
+
+#services .box img {
+    height: 160px;
+    width: 160px;
+    display: inline;
+    padding-right: 20px;
+}
+
+#services .box p {
+    display: inline;
+    font-family: 'Bree Serif', serif;
+    padding: 20px, 40px;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* Utility Classes */
+
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    padding-left: 0px display flex;
+    padding-bottom: 20px;
+}
+
+.link {
+    padding: 13px 0px;
+    font-size: 20px;
+    color: rgba(208, 73, 0, 0.853);
+}
+
+
+.center {
+    text-align: left;
+}
+
+#services-container {
+    display: flex;
+
+}
+
+#logo2 div {
+    /* border: 2px solid black; */
+    display: block;
+    margin-top: 42px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#section2 ul {
+    display: block;
+    font-family: Helvetica, sans-serif;
+}
+
+#section2{
+    background-color: #d3cece;
+    width: 25%;
+}
+#section2 ul li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+#section2 ul li a {
+    color: rgba(208, 73, 0, 0.853);
+    display: block;
+    padding: 8px 32px;
+    text-decoration: none;
+}
+#logo3 div{
+
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 23px;
+}
+#logo3 .handwriting{
+    font-size: 17px;
+    font-weight: lighter;
+    display: block;
+    margin-left: 4px;
+
+    padding:0px;
+}

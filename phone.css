@@ -1,0 +1,44 @@
+/* Navigation */
+
+#navbar ul {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 12px;
+    text-align: center;
+    border: none;
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+#services img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new {
+    text-align: center;
+}
+
+#section2 {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+#services .box {
+    flex-direction: column;
+}
+
+#services-container {
+    flex-direction: column;
+}
